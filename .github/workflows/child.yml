@@ -1,3 +1,4 @@
+name: Debug
 on:
   workflow_run:
     workflows: ["blank.yml"]
