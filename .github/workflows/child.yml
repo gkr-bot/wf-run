@@ -14,4 +14,4 @@ jobs:
       - uses: actions/github-script@v3
         with:
           script: |
-            console.dir(context.workflow_run)
+            console.dir(context)
